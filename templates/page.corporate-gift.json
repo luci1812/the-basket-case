@@ -1,0 +1,280 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "bg_color": "#3d2577",
+        "color": "#e4d0c9",
+        "image": "shopify:\/\/shop_images\/Rectangle-1_2x_31f61f21-589d-4bda-afa1-385b26e16319.png",
+        "padding_top": 0,
+        "padding_bottom": 96
+      }
+    },
+    "a08ec415-8ee3-490e-a90b-eb6eff088c5f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19178236838167__a08ec415-8ee3-490e-a90b-eb6eff088c5f-1685432708dbc33755-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How Corporate Gifting Works<\/p>",
+            "heading_size": "h0",
+            "text_color": "#3d2577"
+          }
+        },
+        "template--19178236838167__a08ec415-8ee3-490e-a90b-eb6eff088c5f-1685432708dbc33755-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you need to send multiple gifts to different locations?<br\/>Or do you need to organize a bulk gift delivery to one address and need advice?<br\/>Sending branded gifts to clients has never been easier and we will work with your budget to ensure you make an impression.<br\/>Call us on 1300 733 933 and we can help make this an easier task, GUARANTEED!<\/p>"
+          }
+        },
+        "template--19178236838167__a08ec415-8ee3-490e-a90b-eb6eff088c5f-1685432708dbc33755-2": {
+          "type": "button",
+          "settings": {
+            "button_one_row": true,
+            "button_label": "Request a Quote",
+            "button_link": "https:\/\/www.thebasketcase.com.au\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "Download Bulk Order Form",
+            "button_link_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0720\/0056\/9623\/files\/Blank_Corporate_Spreadsheet_for_Bulk_orders_V22.xlsx?v=1691549764",
+            "button_style_secondary_2": false
+          }
+        },
+        "f524561a-8031-4b79-a57e-1cdc72b57cbb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you want to impress important clients, thank valued customers, or celebrate with staff, nothing shows you care like a Basketcase corporate gift.  Choose from delicious award-winning wines or stunning gourmet gifts, all with the guaranteed quality you’ve come to expect from The Complete Basketcase™<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19178236838167__a08ec415-8ee3-490e-a90b-eb6eff088c5f-1685432708dbc33755-0",
+        "template--19178236838167__a08ec415-8ee3-490e-a90b-eb6eff088c5f-1685432708dbc33755-1",
+        "template--19178236838167__a08ec415-8ee3-490e-a90b-eb6eff088c5f-1685432708dbc33755-2",
+        "f524561a-8031-4b79-a57e-1cdc72b57cbb"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 96
+      }
+    },
+    "65fa0741-110c-4af3-acc9-8f4a1690266b": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--19178236838167__65fa0741-110c-4af3-acc9-8f4a1690266b-1685436970272328f8-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you customise the gift?",
+            "icon": "none",
+            "row_content": "<p>Our creative team can design a customised gift range to suit your budget, style, corporate brand and of course, your recipient. We can add any business cards or promotional items you wish to add to the gift at no extra cost.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19178236838167__65fa0741-110c-4af3-acc9-8f4a1690266b-1685436970272328f8-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer branding?",
+            "icon": "none",
+            "row_content": "<p>Yes, we do! We can organise branding on ribbon, gift cards, stickers or your brand on a Belgium Chocolate bar.  Call us to discuss your options.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19178236838167__65fa0741-110c-4af3-acc9-8f4a1690266b-1685436970272328f8-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer discounts for bulk orders?",
+            "icon": "none",
+            "row_content": "<p>We offer free shipping on all non-perishable gift bulk orders, and we also have a discount pricing policy depending on your spend.  (Free shipping does not apply to any perishable items in our range ie Fruit Hampers and Grazing boxes as they need to be sent with specialised couriers.)<\/p>",
+            "page": ""
+          }
+        },
+        "template--19178236838167__65fa0741-110c-4af3-acc9-8f4a1690266b-1685436970272328f8-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment options do you offer?",
+            "icon": "none",
+            "row_content": "<p>You can pay into our account via online banking, or you can use Visa, Mastercard, American Express or Diners, we do not charge a fee for any of these options.<\/p>",
+            "page": ""
+          }
+        },
+        "cb056ee2-7312-4d81-bc5e-74fdba51f8ca": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I order?",
+            "icon": "none",
+            "row_content": "<p>Depends on what you need, for bulk multiple gifts over 8 delivery locations, you can fill in our easy spreadsheet or if you are needing a delivery one at a time during the month, we can set you up with our easy online ordering or if you need multiple gifts to one address, you just need to email our customer service team and we can organise it for you.<\/p>",
+            "page": ""
+          }
+        },
+        "783041b5-aaa0-4658-adb4-400a010de17d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I track the deliveries?",
+            "icon": "none",
+            "row_content": "<p>You don’t! you don’t have time for that! we do that for you to ensure the gifts are received in a timely manner.<\/p>",
+            "page": ""
+          }
+        },
+        "ba5d7089-878d-4374-aae7-f211e3a31151": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I open an account with The Basketcase?",
+            "icon": "none",
+            "row_content": "<p>Yes! We can send you a credit application and we can invoice you each time you order with payment terms (normally 7 days account but we are open to discuss options) <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19178236838167__65fa0741-110c-4af3-acc9-8f4a1690266b-1685436970272328f8-0",
+        "template--19178236838167__65fa0741-110c-4af3-acc9-8f4a1690266b-1685436970272328f8-1",
+        "template--19178236838167__65fa0741-110c-4af3-acc9-8f4a1690266b-1685436970272328f8-2",
+        "template--19178236838167__65fa0741-110c-4af3-acc9-8f4a1690266b-1685436970272328f8-3",
+        "cb056ee2-7312-4d81-bc5e-74fdba51f8ca",
+        "783041b5-aaa0-4658-adb4-400a010de17d",
+        "ba5d7089-878d-4374-aae7-f211e3a31151"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-2",
+        "container_color_scheme": "background-2",
+        "background_color": "#f5efed",
+        "heading_color": "#3d2577",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "b30398de-7852-4089-a20d-35357f6b7632": {
+      "type": "icon-with-text",
+      "blocks": {
+        "template--19178236838167__b30398de-7852-4089-a20d-35357f6b7632-16854381019bb22ad3-1": {
+          "type": "block",
+          "settings": {
+            "row": true,
+            "image": "shopify:\/\/shop_images\/delivery-truck-2_2x_7e94833c-84a3-4fe1-bc1c-618f91f6741d.png",
+            "icon_svg": "",
+            "image_size": "large",
+            "title": "Free shipping on bulk order!",
+            "title_size": "h3",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19178236838167__b30398de-7852-4089-a20d-35357f6b7632-16854381019bb22ad3-1"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "68284198-4181-4886-a2e5-8992c92e6e14": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19178236838167__68284198-4181-4886-a2e5-8992c92e6e14-1685439608e542b70a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Pricing Policy<\/p>",
+            "heading_size": "h0",
+            "text_color": "#3d2577"
+          }
+        },
+        "template--19178236838167__68284198-4181-4886-a2e5-8992c92e6e14-1685439608e542b70a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\t• \t$800 spent on hampers 2.5% off the price of each hamper<br\/>\t• \t$1200 spent on hampers 5% off the price of each hamper<br\/>\t• \t$2400 spent on hampers 8% off the price of each hamper<br\/>\t• \t$5000 spent on hampers 10% off the price of each hamper<br\/><br\/>*Discounts do not apply on Christmas Corporate bulk orders after 30th November, and we do not take bulk orders for<br\/>perishable gifts and bouquets<\/p>"
+          }
+        },
+        "3f7197ca-6d77-4873-bdd9-02425bee5b86": {
+          "type": "text-with-border",
+          "settings": {
+            "text": "<p>Our commitment to customer service is at the heart of our success and the proud reputation we have built. The Complete Basketcase™ is a family based business and has been operating since 2001.  Our goal is the same as yours- to deliver stylish, professional corporate gifts that will delight and impress your recipient every time.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19178236838167__68284198-4181-4886-a2e5-8992c92e6e14-1685439608e542b70a-0",
+        "template--19178236838167__68284198-4181-4886-a2e5-8992c92e6e14-1685439608e542b70a-1",
+        "3f7197ca-6d77-4873-bdd9-02425bee5b86"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "7da3567c-b567-4246-a249-dea84491201e": {
+      "type": "testimonials",
+      "blocks": {
+        "template--19178236838167__7da3567c-b567-4246-a249-dea84491201e-1685442412345dab9c-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "content": "<p><em>AMAZING! Simply amazing.  With short notice Kerry and her team were able to do the impossible and send 30+ hampers out to my work colleagues around Australia, arriving in time for our unexpected virtual team event.  Such excellent friendly service. Thank you, Kerry and TCB team.<\/em><\/p>",
+            "author": "- Lisa Gatt – Aurecon Group"
+          }
+        },
+        "template--19178236838167__7da3567c-b567-4246-a249-dea84491201e-1685442412345dab9c-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "content": "<p><em>Highly recommend The Complete Basketcase for corporate orders.  We put in a large order with lots of special requirements and all were taken care of and delivered with no issues.  Generous hampers with lots of delicious products – our staff loved receiving them.  The Team at the Complete Basketcase was so lovely and easy to deal with, nothing was too much trouble. Thank you!<\/em><\/p>",
+            "author": "- Olivia Mallia – One Mining"
+          }
+        },
+        "template--19178236838167__7da3567c-b567-4246-a249-dea84491201e-1685442412345dab9c-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "content": "<p><em>I’ve been using the Complete Basketcase for many years, firstly in a corporate role and now personally.  The gifts are always well presented and overall good value.  My son and his partner are in isolation in Melbourne so this gift was a “thinking of you” gift.  My son’s partner is coeliac, so it was great to see that I could add some gluten-free options for her.<\/em><\/p>",
+            "author": "- Lee-Anne Harris – Ranzcog"
+          }
+        },
+        "template--19178236838167__7da3567c-b567-4246-a249-dea84491201e-1685442412345dab9c-3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "content": "<p><em>I love The Complete Basketcase and regularly use it for all my corporate purchases. It’s easy to order when you have such variety and flexibility to add additional items to your hampers\/gift baskets.  I also appreciate the service and that I always receive notifications of when my orders have been delivered.  Fantastic service and very reliable!<\/em><\/p>",
+            "author": "- Pauline Intagliata – AIA"
+          }
+        }
+      },
+      "block_order": [
+        "template--19178236838167__7da3567c-b567-4246-a249-dea84491201e-1685442412345dab9c-0",
+        "template--19178236838167__7da3567c-b567-4246-a249-dea84491201e-1685442412345dab9c-1",
+        "template--19178236838167__7da3567c-b567-4246-a249-dea84491201e-1685442412345dab9c-2",
+        "template--19178236838167__7da3567c-b567-4246-a249-dea84491201e-1685442412345dab9c-3"
+      ],
+      "settings": {
+        "show_line": true,
+        "title": "Reviews",
+        "subtitle": "Corporate Customers that love our service",
+        "background_color": "#e4ddc4",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a08ec415-8ee3-490e-a90b-eb6eff088c5f",
+    "65fa0741-110c-4af3-acc9-8f4a1690266b",
+    "b30398de-7852-4089-a20d-35357f6b7632",
+    "68284198-4181-4886-a2e5-8992c92e6e14",
+    "7da3567c-b567-4246-a249-dea84491201e"
+  ]
+}

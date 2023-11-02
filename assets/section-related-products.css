@@ -1,0 +1,18 @@
+.related-products {
+  display: block;
+}
+
+.related-products__heading {
+  margin: 0 0 4.8rem;
+  color: var(--gradient-base-accent-2);
+}
+
+@media screen and (max-width: 749px) {
+  .related-products__heading {
+    margin: 0 0 2.4rem;
+  }
+
+  .related-products .flickity-button {
+    display: none;
+  }
+}

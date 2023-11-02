@@ -1,0 +1,133 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Family Owned Business Call if you Need Advice on 03 93291933",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {}
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "d311844d-05b2-4c84-ae11-bef98c4e3c16": {
+          "type": "image",
+          "settings": {
+            "menu_title": "Gift Hampers",
+            "link_title": "Gifts for Her",
+            "link": "shopify:\/\/collections\/for-her",
+            "image": "shopify:\/\/shop_images\/header_feature_pic_1.png"
+          }
+        },
+        "913539bf-e352-48f9-8e17-b5482946f85d": {
+          "type": "image",
+          "settings": {
+            "menu_title": "Gift Baskets",
+            "link_title": "Gift Baskets",
+            "link": "shopify:\/\/collections\/gift-baskets",
+            "image": "shopify:\/\/shop_images\/header_feature_baskets2.png"
+          }
+        },
+        "bf1ac82c-aabb-43ed-a573-1a73d0a1354a": {
+          "type": "image",
+          "settings": {
+            "menu_title": "Baby Gifts",
+            "link_title": "Baby Neutral Gifts",
+            "link": "shopify:\/\/collections\/baby-neutral-gift-hampers",
+            "image": "shopify:\/\/shop_images\/Header_feature_pic_baby.png"
+          }
+        },
+        "2d581226-797d-43aa-8b33-7e78bc459cfc": {
+          "type": "image",
+          "settings": {
+            "menu_title": "Baby Gifts",
+            "link_title": "Baby Nappy Cakes",
+            "link": "shopify:\/\/collections\/baby-nappy-cakes",
+            "image": "shopify:\/\/shop_images\/Header_feature_pic_baby_pram.png"
+          }
+        },
+        "e286c98d-3ff5-4f9c-90cc-1c09b5bc5baa": {
+          "type": "image",
+          "settings": {
+            "menu_title": "Gift Baskets",
+            "link_title": "With Sympathy",
+            "link": "shopify:\/\/collections\/with-sympathy",
+            "image": "shopify:\/\/shop_images\/header_feature_baskets.png"
+          }
+        },
+        "42520cf6-645e-4532-8827-62c7bf3639cc": {
+          "type": "image",
+          "settings": {
+            "menu_title": "Fruit Hampers & Grazing Boxes",
+            "link_title": "Delicious Grazing Boxes",
+            "link": "shopify:\/\/collections\/grazing-boxes",
+            "image": "shopify:\/\/shop_images\/header_feature_glazing_box.png"
+          }
+        },
+        "a5f0b775-746c-4eeb-9011-19895a0be697": {
+          "type": "image",
+          "settings": {
+            "menu_title": "Fruit Hampers & Grazing Boxes",
+            "link_title": "Fresh Fruit Hampers",
+            "link": "shopify:\/\/collections\/fruit-hamper",
+            "image": "shopify:\/\/shop_images\/header_feature_fruit_baskets.png"
+          }
+        },
+        "c7c89d3d-7245-4d55-893b-e9de84d4820a": {
+          "type": "image",
+          "settings": {
+            "menu_title": "Wine & Champers",
+            "link_title": "Champagne Gifts",
+            "link": "shopify:\/\/collections\/champagne-and-sparkling-wine-delivery",
+            "image": "shopify:\/\/shop_images\/header_feature_champagne.png"
+          }
+        },
+        "7bc2a52e-4f7c-4cc3-8ad5-55b0a1011c88": {
+          "type": "image",
+          "settings": {
+            "menu_title": "Wine & Champers",
+            "link_title": "Wine Gifts",
+            "link": "shopify:\/\/collections\/wine-gifts",
+            "image": "shopify:\/\/shop_images\/header_feature_wine_champ.png"
+          }
+        }
+      },
+      "block_order": [
+        "d311844d-05b2-4c84-ae11-bef98c4e3c16",
+        "913539bf-e352-48f9-8e17-b5482946f85d",
+        "bf1ac82c-aabb-43ed-a573-1a73d0a1354a",
+        "2d581226-797d-43aa-8b33-7e78bc459cfc",
+        "e286c98d-3ff5-4f9c-90cc-1c09b5bc5baa",
+        "42520cf6-645e-4532-8827-62c7bf3639cc",
+        "a5f0b775-746c-4eeb-9011-19895a0be697",
+        "c7c89d3d-7245-4d55-893b-e9de84d4820a",
+        "7bc2a52e-4f7c-4cc3-8ad5-55b0a1011c88"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "menu": "main-menu",
+        "sticky_header_type": "on-scroll-up",
+        "phone_number": "1300 733 933",
+        "mobile_logo_position": "center",
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

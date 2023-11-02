@@ -1,0 +1,118 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "5dfd6f62-9f8f-47a9-902b-34244c9d9edb": {
+      "type": "newsletter-popup",
+      "settings": {
+        "show_newsletter_popup": true,
+        "image_popup_pc": "shopify:\/\/shop_images\/Rectangle_3_2x_8e991433-14e5-4aca-a343-229eaec7bf13.png",
+        "image_popup_mb": "shopify:\/\/shop_images\/Rectangle_3_2x_912e3210-bba8-42c8-8b73-2529e9b763fb.png",
+        "title": "Subscribe to Our Newsletter <br><span> for <b>5% Off <\/b>Your First Order!<\/span>",
+        "button_label": "Subscribe"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Products",
+            "menu": "footer"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About",
+            "menu": "about"
+          }
+        },
+        "89630816-c55f-421a-ae17-b968c9e47c85": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Categories",
+            "menu": "categories"
+          }
+        },
+        "5c1b0d05-8464-4eec-8468-1c252fec0418": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Occasions",
+            "menu": "occasions"
+          }
+        },
+        "d53c221d-2437-412b-b286-d7af91361e80": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Delivery",
+            "menu": "delivery"
+          }
+        },
+        "90458512-36c8-4fbe-b0fe-c506e15e3b27": {
+          "type": "store_info",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/call_1_2x_6aac104d-5818-4da5-81b2-619ca52d7f4e.png",
+            "icon_svg": "",
+            "content": "<p>Australia: 1300 733 933<\/p>"
+          }
+        },
+        "087f4d00-c7c6-469d-9521-f6aa77e51387": {
+          "type": "store_info",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/call_1_2x_6aac104d-5818-4da5-81b2-619ca52d7f4e.png",
+            "icon_svg": "",
+            "content": "<p>International: +61 3 9329 19 33<\/p>"
+          }
+        },
+        "e30fbf26-4b4e-4ee8-8bd1-5e22329a997d": {
+          "type": "store_info",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mail-2_2x_5ea448e8-70b0-4d35-b727-95991b9482a5.png",
+            "icon_svg": "",
+            "content": "<p>info@thebasketcase.com.au<\/p>"
+          }
+        },
+        "83a7f672-666c-46eb-b595-edac46bfa407": {
+          "type": "store_info",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/location-pin_2x_ff393f75-df44-48e9-a939-a618b6a77113.png",
+            "icon_svg": "",
+            "content": "<p>71 Bakehouse Road, Kensington VIC 3031<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "89630816-c55f-421a-ae17-b968c9e47c85",
+        "5c1b0d05-8464-4eec-8468-1c252fec0418",
+        "d53c221d-2437-412b-b286-d7af91361e80",
+        "90458512-36c8-4fbe-b0fe-c506e15e3b27",
+        "087f4d00-c7c6-469d-9521-f6aa77e51387",
+        "e30fbf26-4b4e-4ee8-8bd1-5e22329a997d",
+        "83a7f672-666c-46eb-b595-edac46bfa407"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to Our Newsletter <br><span> for <b>5% Off <\/b>Your First Order!<\/span>",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": false,
+        "show_policy": true,
+        "menu_policy": "policy-menu",
+        "margin_top": 0,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "5dfd6f62-9f8f-47a9-902b-34244c9d9edb",
+    "footer"
+  ]
+}

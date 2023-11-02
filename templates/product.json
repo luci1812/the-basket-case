@@ -1,0 +1,347 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "d6acae79-f299-4c95-bb73-c58250d93828": {
+          "type": "product-message",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "a7e53755-0b7a-4aac-bd74-e9caea13baf9": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Chocolates",
+            "collection": "chocolates"
+          }
+        },
+        "fee33bf7-8535-493b-9df5-c5b3e2129ee4": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Tea and Coffee",
+            "collection": "tea-and-coffee"
+          }
+        },
+        "d81f2c6c-bb52-42b3-8ed8-7ed7312f7390": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Confectionery",
+            "collection": "confectionery"
+          }
+        },
+        "6eab3a57-b18d-4e40-8898-135feb97ad3a": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Biscuits and Cookies",
+            "collection": "biscuits-and-cookies"
+          }
+        },
+        "c139c743-f1db-4c66-9ae3-660467926b7d": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Savoury Treats",
+            "collection": "savoury-treats"
+          }
+        },
+        "1fb94f62-5e1e-4937-8a04-9a40407f25d8": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Nuts and Nibbles",
+            "collection": "nuts-and-nibbles"
+          }
+        },
+        "e8fd4334-949e-4440-8968-ea545f6463ea": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "For Baby & Kids",
+            "collection": "for-baby-kids"
+          }
+        },
+        "34f56971-b01a-4dff-9297-16c80e5e967f": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Gift Books",
+            "collection": "gift-books-1"
+          }
+        },
+        "cf074afa-b6eb-4fb9-ae8f-300ea1fb37ac": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Homewares & Pampering",
+            "collection": "homewares-pampering"
+          }
+        },
+        "55d8bb84-1790-47ff-b65d-d3b58e45f82b": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Plush Teddies & Toys",
+            "collection": "plush-teddys-toys"
+          }
+        },
+        "13a26290-3552-43d6-a583-330336520201": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Puzzles & Games",
+            "collection": "puzzles-games"
+          }
+        },
+        "8271b53e-3143-4d37-aa85-518e11925df3": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Pantry & Condiments",
+            "collection": "pantry-condiments"
+          }
+        },
+        "e495744a-e530-43f9-aaf6-aab4264331bf": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Pet Goodies",
+            "collection": "pet-goodies"
+          }
+        },
+        "602e0ce7-8881-444c-a8df-103ca247374d": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Red Wine",
+            "collection": "red-wine"
+          }
+        },
+        "1c55835f-b1ce-437c-b011-8b77d6d3ca74": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "White Wine, Champagne and Sparkling",
+            "collection": "white-wine-champagne-and-sparkling"
+          }
+        },
+        "50f27de9-92e5-40ba-86dd-28d99eda5d7a": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Beer and Cider",
+            "collection": "beer-and-cider"
+          }
+        },
+        "0d6d0e7c-39a6-44f4-9a23-0bb9e5cd1982": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Gluten Free Goodies",
+            "collection": "gluten-free-goodies"
+          }
+        },
+        "da3ab223-b352-4572-894a-c0dd8a39f6ca": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Vegan Products",
+            "collection": "vegan-products"
+          }
+        },
+        "bd40e6ff-4746-455d-b983-db014ce664d1": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Kosher",
+            "collection": "kosher"
+          }
+        },
+        "43a69498-727c-4a68-a76a-b30641f92ec3": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Alcohol Free drinks and accessories",
+            "collection": "alcohol-free-drinks-and-accessories"
+          }
+        },
+        "0d32e834-d20b-47f0-9aee-22fe45aea5c5": {
+          "type": "product-upsell",
+          "disabled": true,
+          "settings": {
+            "upsell_title": "Easter Treats",
+            "collection": "easter-treats-1"
+          }
+        },
+        "a9435a20-0cc9-4438-acb1-1826e094103b": {
+          "type": "product-upsell",
+          "settings": {
+            "upsell_title": "Spirits & Fortified Wines",
+            "collection": "spirits-fortified-wines"
+          }
+        },
+        "46536a50-526f-4232-b973-02919abe15e6": {
+          "type": "product-upsell",
+          "disabled": true,
+          "settings": {
+            "upsell_title": "Mother's day goodies",
+            "collection": "mothers-day-goodies"
+          }
+        },
+        "5fb20ff4-cc94-4562-b73f-6448123ce894": {
+          "type": "product-upsell",
+          "disabled": true,
+          "settings": {
+            "upsell_title": "Father's Day goodies",
+            "collection": "fathers-day-goodies"
+          }
+        },
+        "a2d62929-fb49-4262-a439-4f4d9a63ed27": {
+          "type": "product-upsell",
+          "disabled": true,
+          "settings": {
+            "upsell_title": "Christmas Treats",
+            "collection": "christmas-treats"
+          }
+        },
+        "d651e666-718a-4617-9628-55cc4f81bd9e": {
+          "type": "product-upsell",
+          "disabled": true,
+          "settings": {
+            "upsell_title": "Valentine's Day Treats",
+            "collection": "valentines-day-treats"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "price",
+        "variant_picker",
+        "d6acae79-f299-4c95-bb73-c58250d93828",
+        "buy_buttons",
+        "a7e53755-0b7a-4aac-bd74-e9caea13baf9",
+        "fee33bf7-8535-493b-9df5-c5b3e2129ee4",
+        "d81f2c6c-bb52-42b3-8ed8-7ed7312f7390",
+        "6eab3a57-b18d-4e40-8898-135feb97ad3a",
+        "c139c743-f1db-4c66-9ae3-660467926b7d",
+        "1fb94f62-5e1e-4937-8a04-9a40407f25d8",
+        "e8fd4334-949e-4440-8968-ea545f6463ea",
+        "34f56971-b01a-4dff-9297-16c80e5e967f",
+        "cf074afa-b6eb-4fb9-ae8f-300ea1fb37ac",
+        "55d8bb84-1790-47ff-b65d-d3b58e45f82b",
+        "13a26290-3552-43d6-a583-330336520201",
+        "8271b53e-3143-4d37-aa85-518e11925df3",
+        "e495744a-e530-43f9-aaf6-aab4264331bf",
+        "602e0ce7-8881-444c-a8df-103ca247374d",
+        "1c55835f-b1ce-437c-b011-8b77d6d3ca74",
+        "50f27de9-92e5-40ba-86dd-28d99eda5d7a",
+        "0d6d0e7c-39a6-44f4-9a23-0bb9e5cd1982",
+        "da3ab223-b352-4572-894a-c0dd8a39f6ca",
+        "bd40e6ff-4746-455d-b983-db014ce664d1",
+        "43a69498-727c-4a68-a76a-b30641f92ec3",
+        "0d32e834-d20b-47f0-9aee-22fe45aea5c5",
+        "a9435a20-0cc9-4438-acb1-1826e094103b",
+        "46536a50-526f-4232-b973-02919abe15e6",
+        "5fb20ff4-cc94-4562-b73f-6448123ce894",
+        "a2d62929-fb49-4262-a439-4f4d9a63ed27",
+        "d651e666-718a-4617-9628-55cc4f81bd9e"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Related products",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "c6316648-c77c-48d4-b5f3-cb3f19abab7a": {
+      "type": "icon-with-text",
+      "blocks": {
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-0": {
+          "type": "block",
+          "settings": {
+            "row": false,
+            "image": "shopify:\/\/shop_images\/delivery-truck-2_2x_7e94833c-84a3-4fe1-bc1c-618f91f6741d.png",
+            "icon_svg": "",
+            "image_size": "small",
+            "title": "Free shipping available Australia wide",
+            "title_size": "h4",
+            "content": "<p>If in a hurry, send it with our VIP service for $9.95<\/p>"
+          }
+        },
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-1": {
+          "type": "block",
+          "settings": {
+            "row": false,
+            "image": "shopify:\/\/shop_images\/shop-2_2x_3015ea9c-7b97-46b1-b4fd-fa8a5b2fdaa7.png",
+            "icon_svg": "",
+            "image_size": "small",
+            "title": "Click and Collect available!",
+            "title_size": "h4",
+            "content": "<p>Pick up from our warehouse in Kensington, Victoria<\/p>"
+          }
+        },
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-2": {
+          "type": "block",
+          "settings": {
+            "row": false,
+            "image": "shopify:\/\/shop_images\/gift-box_2x_06b3e370-e51e-41f0-aa2d-d5b666fd1ade.png",
+            "icon_svg": "",
+            "image_size": "small",
+            "title": "Corporate Gifting",
+            "title_size": "h4",
+            "content": "<p>Sending branded gifts to clients has never been easier.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-0",
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-1",
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-2"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "c6316648-c77c-48d4-b5f3-cb3f19abab7a"
+  ]
+}

@@ -1,0 +1,50 @@
+<style type="text/css">
+  .template-404.page-width {
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+  .template-404 .title-404 {
+    color: var(--gradient-base-accent-2);
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+    line-height: 56px;
+    font-weight: bold;
+  }
+  .template-404 .description-404 {
+    max-width: 28.4rem;
+    margin: 0 auto 2.4rem;
+  }
+
+  @media screen and (max-width: 749px) {
+    .template-404.page-width {
+      margin-top: 48px;
+      margin-bottom: 48px;
+    }
+    .template-404 .title-404 {
+      margin-bottom: 1.2rem;
+      line-height: 40px;
+    }
+
+    .template-404 .flickity-button {
+      display: none;
+    }
+  }
+ 
+</style>
+
+{% render 'icon-line', class: 'icon-under-header', style: 'color: var(--color-border)' %}
+
+<div class="template-404 page-width center">
+  <h1 class="title-404 h0">
+    {{ 'templates.404.title' | t }}
+  </h1>
+  <p class="description-404">
+    {{ 'templates.404.subtext' | t }}
+  </p>
+ 
+  <a href="{{ shop.url }}" class="button button--primary button--large">
+    {{ 'general.back_to_homepage' | t }}
+  </a>
+</div>
+
+{% render 'icon-line', class: 'icon-under-header', style: 'color: var(--color-border)' %}

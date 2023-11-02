@@ -1,0 +1,132 @@
+{{ 'component-newsletter-popup.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.show_newsletter_popup %}
+  <div class="newsletter-popup">
+    <div class="icon-close__wrap js-close">{%- render 'icon-close' -%}</div>
+    <div class="newsletter-popup__image">
+      {%- if section.settings.image_popup_pc != blank -%}
+        <img
+          loading="lazy"
+          class="{%- if section.settings.image_popup_mb != blank  -%} small-hide {%- endif -%}"
+          src="{{ section.settings.image_popup_pc | img_url: 'master' }}"
+          alt="{{ section.settings.image_popup_pc.alt }}"
+        >
+        {% if section.settings.image_popup_mb != blank %}
+          <img
+            loading="lazy"
+            class="large-up-hide medium-hide"
+            src="{{ section.settings.image_popup_mb | img_url: 'master' }}"
+            alt="{{ section.settings.image_popup_mb.alt }}"
+          >
+        {% endif %}
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder__img' }}
+      {%- endif -%}
+    </div>
+    <div class="newsletter-popup__wrap">
+      <div class="popup-content">
+        {% render 'icon' with 'paper-plane' %}
+        <h2 class="popup__title font-title h1">{{ section.settings.title }}</h2>
+
+        <form
+          id="email_signup"
+          class="klaviyo_styling klaviyo_gdpr_embed_W9sEAH"
+          action="//manage.kmail-lists.com/subscriptions/subscribe"
+          data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe"
+          method="GET"
+          target="_blank"
+          novalidate="novalidate"
+        >
+          <input type="hidden" name="g" value="W9sEAH">
+          <input type="hidden" name="$fields" value="$consent">
+          <input type="hidden" name="$list_fields" value="$consent">
+          <div class="klaviyo_field_group">
+            <div class="field">
+              <input class="field__input" type="email" value="" name="email" id="k_id_email" placeholder="Email address">
+            </div>
+          </div>
+          <div class="klaviyo_messages">
+            <div class="success_message h3" style="display:none;"></div>
+            <div class="error_message h3" style="display:none;"></div>
+          </div>
+          <div class="klaviyo_form_actions">
+            <button type="submit" class="klaviyo_submit_button button js-submit-button button--thirth button-full-width">
+              {{ section.settings.button_label }}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="newsletter-popup-overlay js-popup-overlay"><span></span></div>
+
+  <script>
+    let buttonsClose = document.querySelectorAll('.js-close'),
+      popup = document.querySelector('.newsletter-popup'),
+      form = popup.querySelector('#email_signup'),
+      buttonSubmit = document.querySelector('.js-submit-button'),
+      overlay = document.querySelector('.js-popup-overlay');
+
+    if (window.localStorage) {
+      let isHiddenPopupNewsletter = localStorage.getItem('isHiddenPopupNewsletter');
+
+      if (!localStorage['isHiddenPopupNewsletter'] || isHiddenPopupNewsletter == false) {
+        if (popup) {
+          popup.style.display = 'flex';
+          overlay.style.display = 'block';
+          document.querySelector('body').classList.add('overflow-hidden');
+        }
+      }
+    }
+
+    buttonsClose.forEach((button) => {
+      button.addEventListener('click', () => {
+        popup.style.display = 'none';
+        overlay.style.display = 'none';
+        document.querySelector('body').classList.remove('overflow-hidden');
+        localStorage.setItem('isHiddenPopupNewsletter', true);
+      });
+    });
+  </script>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Newsletter popup",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_newsletter_popup",
+      "label": "Show newsletter popup",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image_popup_pc",
+      "label": "Image popup desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_popup_mb",
+      "label": "Image popup mobile"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Subscribe To Our Newsletter"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Subscribe"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Newsletter popup"
+    }
+  ]
+}
+{% endschema %}

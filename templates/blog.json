@@ -1,0 +1,98 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "bg_color": "#3D2577",
+        "color": "#E4D0C9",
+        "image": "shopify:\/\/shop_images\/Rectangle-1_2x_f82d91d7-1a56-4d63-ae00-2107012b63cf.png",
+        "image_mb": "shopify:\/\/shop_images\/Rectangle_2x_747c40f0-670c-4e52-a1c8-0777887b6273.png",
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": false,
+        "show_author": false,
+        "padding_top": 48,
+        "padding_bottom": 96
+      }
+    },
+    "227cf0de-1789-4498-9f23-486cc5279834": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Related Products",
+        "heading_size": "h1",
+        "collection": "best-sellers",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "layout_mb": "2",
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "7b3a6597-640b-4e2f-840e-3626e87f5ed9": {
+      "type": "icon-with-text",
+      "blocks": {
+        "template--18212333191447__7b3a6597-640b-4e2f-840e-3626e87f5ed9-1681266539edea3d73-0": {
+          "type": "block",
+          "settings": {
+            "row": false,
+            "image": "shopify:\/\/shop_images\/delivery-truck-2_2x_7e94833c-84a3-4fe1-bc1c-618f91f6741d.png",
+            "icon_svg": "",
+            "image_size": "small",
+            "title": "Free shipping available Australia wide",
+            "title_size": "h4",
+            "content": "<p>If in a hurry, send it with our VIP service for $9.95<\/p>"
+          }
+        },
+        "template--18212333191447__7b3a6597-640b-4e2f-840e-3626e87f5ed9-1681266539edea3d73-1": {
+          "type": "block",
+          "settings": {
+            "row": false,
+            "image": "shopify:\/\/shop_images\/shop-2_2x_3015ea9c-7b97-46b1-b4fd-fa8a5b2fdaa7.png",
+            "icon_svg": "",
+            "image_size": "small",
+            "title": "Click and Collect available!",
+            "title_size": "h4",
+            "content": "<p>Pick up from our warehouse in Kensington, Victoria<\/p>"
+          }
+        },
+        "template--18212333191447__7b3a6597-640b-4e2f-840e-3626e87f5ed9-1681266539edea3d73-2": {
+          "type": "block",
+          "settings": {
+            "row": false,
+            "image": "shopify:\/\/shop_images\/gift-box_2x_06b3e370-e51e-41f0-aa2d-d5b666fd1ade.png",
+            "icon_svg": "",
+            "image_size": "small",
+            "title": "Corporate Gifting",
+            "title_size": "h4",
+            "content": "<p>Sending branded gifts to clients has never been easier.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18212333191447__7b3a6597-640b-4e2f-840e-3626e87f5ed9-1681266539edea3d73-0",
+        "template--18212333191447__7b3a6597-640b-4e2f-840e-3626e87f5ed9-1681266539edea3d73-1",
+        "template--18212333191447__7b3a6597-640b-4e2f-840e-3626e87f5ed9-1681266539edea3d73-2"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "227cf0de-1789-4498-9f23-486cc5279834",
+    "7b3a6597-640b-4e2f-840e-3626e87f5ed9"
+  ]
+}

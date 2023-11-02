@@ -1,0 +1,43 @@
+.list-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.list-social__item .icon {
+  height: auto;
+  width: 1.6rem;
+  margin-right: 8px;
+}
+
+.list-social__item .icon.icon-facebook {
+  fill: var(--gradient-base-background-3)
+}
+
+.list-social__link {
+  align-items: center;
+  display: flex;
+  padding: 1.3rem;
+  color: rgb(var(--color-foreground));
+  text-decoration: none;
+}
+
+.list-social__link:hover .icon {
+  transform: scale(1.07);
+}
+
+@media only screen and (max-width: 749px) {
+  .list-social {
+    justify-content: center;
+  }
+  
+  .list-social__item .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0;
+  }
+
+  .list-social__item:not(:last-child) .icon {
+    margin-right: 45px;
+  }
+}

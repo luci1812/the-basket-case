@@ -1,0 +1,136 @@
+.collection-hero__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.collection-hero .icon-line {
+  color: var(--color-border);
+}
+
+.collection-hero--with-image .collection-hero__inner {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .collection-hero__inner.page-width {
+    padding-right: 0;
+  }
+  .collection-hero.collection-hero--with-image {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .collection-hero--with-image .collection-hero__inner {
+    padding-bottom: 0;
+  }
+}
+
+.collection-hero__text-wrapper {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .collection-hero {
+    padding: 0;
+  }
+
+  .collection-hero__inner {
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+}
+
+.collection-hero__title {
+  margin: 2.5rem 0;
+}
+
+@media screen and (min-width: 750px) {
+  .collection-hero__description {
+    max-width: 50%;
+  }
+
+  .collection-hero--with-image .collection-hero__description {
+    max-width: 32rem;
+  }
+}
+
+.collection-hero--with-image .collection-hero__title {
+  margin: 0;
+}
+
+.collection-hero--with-image .collection-hero__text-wrapper {
+  padding: 2.4rem 3.9rem;
+}
+
+.collection-hero__image-container {
+  min-height: 28rem;
+}
+
+.collection-hero__text-wrapper img {
+  display: block;
+}
+
+.collection-hero__text-wrapper *:not(:last-child) {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.collection-hero__title {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 56px;
+}
+
+@media screen and (max-width: 749px) {
+  .collection-hero__image-container {
+    min-height: 20rem;
+    order: -1;
+  }
+
+  .collection-hero__title {
+    font-size: 24px;
+    line-height: 32px;
+  } 
+
+  .collection-hero__text-wrapper *:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  .collection-hero--with-image .collection-hero__text-wrapper {
+    text-align: center;
+  }
+
+  .collection-hero__text-wrapper img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 34px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .collection-hero--with-image .collection-hero__text-wrapper {
+    padding: 4.8rem 2.4rem 4.8rem;
+    flex-basis: 31%;
+  }
+
+  .collection-hero__image-container {
+    align-self: stretch;
+    flex: 1 0 69%;
+    min-height: 28rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .collection-hero--with-image .collection-hero__text-wrapper {
+    padding-left: 52px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .collection-hero__image-container {
+    min-height: 12.5rem;
+  }
+}

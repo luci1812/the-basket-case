@@ -1,0 +1,69 @@
+<div class="product__gift--wrap " >
+  <div class="product__gift--img">
+    <img
+      src="{{ product.featured_image | image_url }}"
+      {% if product.featured_image.alt != blank %}
+        alt="{{ product.featured_image.alt | escape }}"
+      {% else %}
+        role="presentation"
+      {% endif %}
+      height="auto"
+      width="auto"
+      loading="lazy"
+    >
+  </div>
+  <div class="product__gift--info">
+    {% assign title = '' %}
+    {% if product.title contains '/' %}
+      {%- assign title = product.title | split: '/ ' | last -%}      
+    {% endif %}
+    <h5 class="h4">{{ title }}</h5>
+    <div class="product__gift--price">
+      <div>
+        {% render 'price', product: product %}
+        for {{ product.metafields.custom.min_items }} - {{ product.metafields.custom.max_items }} items
+        <div class="product__gift--tag" >
+          {%- assign product_tags = product.tags | join: ',' -%}
+          {%- for tag in product.tags -%}
+            {%- assign tag_name = tag | split: ':' | first | downcase -%}
+            {%- assign tag_item = tag | split: ': ' | last -%}
+            {% if tag_name == 'size' %}
+              <span>
+                {{- tag_item -}}
+              </span>            
+            {% endif %}
+  
+            {%- if tag_name == 'size-min' -%}
+              <span class="visualy-hiden js-count-min" data-min-product="{{ tag_item }}"></span>
+            {%- endif -%}
+  
+            {%- if tag_name == 'size-max' -%}
+              <span class="visualy-hiden js-count-max" data-max-product="{{ tag_item }}"></span>
+            {%- endif -%}
+          {%- endfor -%}       
+        </div>
+      </div>
+      <button>
+        <span>
+          <svg
+            aria-hidden="true"
+            class="icon icon-checkmark"
+            width="1.1rem"
+            height="0.7rem"
+            viewBox="0 0 11 7"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1"
+              stroke="currentColor"
+              stroke-width="1.75"
+              stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </span>
+
+        <span aria-hidden="true" class="subtitle--small">Select</span>
+      </button>
+    </div>
+  </div>
+</div>

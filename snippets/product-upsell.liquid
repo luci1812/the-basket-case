@@ -1,0 +1,45 @@
+<div class="product__upsell">
+  <div class="product__upsell--img">
+    <img
+      src="{{ product.featured_image | image_url }}"
+      {% if product.featured_image.alt != blank %}
+        alt="{{ product.featured_image.alt | escape }}"
+      {% else %}
+        role="presentation"
+      {% endif %}
+      height="auto"
+      width="auto"
+      loading="lazy"
+    >
+  </div>
+  <div class="product__upsell--info">
+    <h5 class="subtitle--small left">{{ product.title }}</h5>
+    <div class="product__upsell--price">
+      <label for="product-upsell-price-{{ index }}-{{ id }}" class="facet-checkbox">
+        <input
+          type="checkbox"
+          value="{{ product.price }}"
+          id="product-upsell-price-{{ index }}-{{ id }}"
+          data-id="{{ product.first_available_variant.id }}"
+        >
+        <svg
+          aria-hidden="true"
+          class="icon icon-checkmark"
+          width="1.1rem"
+          height="0.7rem"
+          viewBox="0 0 11 7"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1"
+            stroke="currentColor"
+            stroke-width="1.75"
+            stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+
+        <span aria-hidden="true" class="subtitle--small">Include + {{ product.price | money }}</span>
+      </label>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-search",
+      "settings": {
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "article_show_date": true,
+        "article_show_author": false,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 96
+      }
+    },
+    "5d6e48b7-408e-4db3-949f-b81676ceee8f": {
+      "type": "icon-with-text",
+      "blocks": {
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/delivery-truck-2_2x_7e94833c-84a3-4fe1-bc1c-618f91f6741d.png",
+            "icon_svg": "",
+            "title": "Free shipping available Australia wide",
+            "content": "<p>If in a hurry, send it with our VIP service for $9.95<\/p>"
+          }
+        },
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-2_2x_3015ea9c-7b97-46b1-b4fd-fa8a5b2fdaa7.png",
+            "icon_svg": "",
+            "title": "Click and Collect available!",
+            "content": "<p>Pick up from our warehouse in Kensington, Victoria<\/p>"
+          }
+        },
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-2": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift-box_2x_06b3e370-e51e-41f0-aa2d-d5b666fd1ade.png",
+            "icon_svg": "",
+            "title": "Corporate Gifting",
+            "content": "<p>Sending branded gifts to clients has never been easier.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-0",
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-1",
+        "template--18212333715735__c6316648-c77c-48d4-b5f3-cb3f19abab7a-16801579767e42eed7-2"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5d6e48b7-408e-4db3-949f-b81676ceee8f"
+  ]
+}

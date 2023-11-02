@@ -1,0 +1,219 @@
+{
+  "sections": {
+    "b0b36b5a-f278-4135-a35d-911b74731a38": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17939545358615__b0b36b5a-f278-4135-a35d-911b74731a38-1678246182a4f10529-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/header_feature_home_page.png",
+            "heading": "Gift Hampers Delivered Australia Wide",
+            "heading_size": "h0",
+            "subheading": "Send gifts to Family, Friends and Clients all over Australia, great quality and beautiful presentation.",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/gift-hampers",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "color_text": "#e4d0c9",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17939545358615__b0b36b5a-f278-4135-a35d-911b74731a38-1678246182a4f10529-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "ec2fd024-f2b1-467e-a5f4-b154a03deffb": {
+      "type": "icon-with-text",
+      "blocks": {
+        "template--17939545358615__ec2fd024-f2b1-467e-a5f4-b154a03deffb-1678262687d4915562-0": {
+          "type": "block",
+          "settings": {
+            "row": false,
+            "image": "shopify:\/\/shop_images\/delivery-truck-2_2x_7e94833c-84a3-4fe1-bc1c-618f91f6741d.png",
+            "icon_svg": "",
+            "image_size": "small",
+            "title": "Free shipping available Australia wide",
+            "title_size": "h4",
+            "content": "<p>If in a hurry, send it with our VIP service for $9.95<\/p>"
+          }
+        },
+        "template--17939545358615__ec2fd024-f2b1-467e-a5f4-b154a03deffb-1678262687d4915562-1": {
+          "type": "block",
+          "settings": {
+            "row": false,
+            "image": "shopify:\/\/shop_images\/shop-2_2x_3015ea9c-7b97-46b1-b4fd-fa8a5b2fdaa7.png",
+            "icon_svg": "",
+            "image_size": "small",
+            "title": "Free shipping available Australia wide",
+            "title_size": "h4",
+            "content": "<p>If in a hurry, send it with our VIP service for $9.95<\/p>"
+          }
+        },
+        "template--17939545358615__ec2fd024-f2b1-467e-a5f4-b154a03deffb-1678262687d4915562-2": {
+          "type": "block",
+          "settings": {
+            "row": false,
+            "image": "shopify:\/\/shop_images\/gift-box_2x_06b3e370-e51e-41f0-aa2d-d5b666fd1ade.png",
+            "icon_svg": "",
+            "image_size": "small",
+            "title": "Free shipping available Australia wide",
+            "title_size": "h4",
+            "content": "<p>If in a hurry, send it with our VIP service for $9.95<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17939545358615__ec2fd024-f2b1-467e-a5f4-b154a03deffb-1678262687d4915562-0",
+        "template--17939545358615__ec2fd024-f2b1-467e-a5f4-b154a03deffb-1678262687d4915562-1",
+        "template--17939545358615__ec2fd024-f2b1-467e-a5f4-b154a03deffb-1678262687d4915562-2"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "margin_top": 0,
+        "margin_bottom": 72
+      }
+    },
+    "78b89ef9-d848-4cec-bb34-50ad174c8e20": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Selling   Gift Hampers & Gift Baskets",
+        "heading_size": "h1",
+        "collection": "best-sellers",
+        "products_to_show": 10,
+        "columns_desktop": 4,
+        "layout_mb": "1",
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "624048f0-4a10-45cd-9a0a-0e55309997dd": {
+      "type": "featured-collection-list",
+      "blocks": {
+        "template--17939545358615__624048f0-4a10-45cd-9a0a-0e55309997dd-167835375253252b74-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "baby-gifts",
+            "background_color": "#ddcc98",
+            "color": "#7e655e",
+            "image": "shopify:\/\/shop_images\/baby_2x_9a3f6da5-2ad3-469a-ab37-d98fcce0fe22.png",
+            "icon_svg": ""
+          }
+        },
+        "template--17939545358615__624048f0-4a10-45cd-9a0a-0e55309997dd-167835375253252b74-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "birthday-gift-baskets",
+            "background_color": "#9181a1",
+            "color": "#413735",
+            "image": "shopify:\/\/shop_images\/cupcake_2x_eca5050b-aabe-48b2-9c4f-cf4d18dfb0de.png",
+            "icon_svg": ""
+          }
+        },
+        "078b70e4-7464-47b4-b1e5-56b660422aee": {
+          "type": "collection",
+          "settings": {
+            "collection": "get-well-gifts-1",
+            "background_color": "#e4a681",
+            "color": "#7e655e",
+            "image": "shopify:\/\/shop_images\/healthcare_2x_cb24fe69-b010-4864-8a03-39524a4f17d7.png",
+            "icon_svg": ""
+          }
+        },
+        "5e7d86dd-b452-4614-a8e9-49827d1b003f": {
+          "type": "collection",
+          "settings": {
+            "collection": "fruit-hampers-grazing-boxes",
+            "background_color": "#91b18c",
+            "color": "#806261",
+            "image": "shopify:\/\/shop_images\/strawberry_2x_fd866638-532f-4a71-af87-fe88b99d328f.png",
+            "icon_svg": ""
+          }
+        },
+        "2650cdbc-ba6c-4142-9308-3ed023abd9b0": {
+          "type": "collection",
+          "settings": {
+            "collection": "corporate-gifts",
+            "background_color": "#bb726c",
+            "color": "#413536",
+            "image": "shopify:\/\/shop_images\/suitcase_2x_a679b4ad-dfcb-49d7-8072-6e121651d61e.png",
+            "icon_svg": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17939545358615__624048f0-4a10-45cd-9a0a-0e55309997dd-167835375253252b74-0",
+        "template--17939545358615__624048f0-4a10-45cd-9a0a-0e55309997dd-167835375253252b74-1",
+        "078b70e4-7464-47b4-b1e5-56b660422aee",
+        "5e7d86dd-b452-4614-a8e9-49827d1b003f",
+        "2650cdbc-ba6c-4142-9308-3ed023abd9b0"
+      ],
+      "settings": {
+        "products_to_show": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "margin_top": 36,
+        "margin_bottom": 36
+      }
+    },
+    "2f7e8420-7278-4e29-8c2a-f5a5a5bc220d": {
+      "type": "reputon-reviews",
+      "settings": {}
+    },
+    "1678334827de146ced": {
+      "type": "apps",
+      "blocks": {
+        "b1d0a482-7aa1-4ee4-8580-a3741ea3eaa8": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": "<div class=\"insta__top\">\n<div class=\"insta__title\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 448 512\"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https:\/\/fontawesome.com License - https:\/\/fontawesome.com\/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\"><\/path><\/svg>\n<h3 class=\"h1\">compbasketcase<\/h3>\n<\/div>\n<a class=\"button--link\" href=\"https:\/\/www.instagram.com\/compbasketcase\/\">Follow Us<\/a>\n\n<\/div>\n\n\n<style>\n.insta__top {\njustify-content: space-between;\n}\n.insta__title, .insta__top {\n    display: flex;\n    align-items: center;\n}\n.insta__title svg {\n    width: 32px;\n    height: 44px;\n    margin-right: 16px;\n    fill: #3d2577; \n}\n.insta__title  h3 {\n    color: #3d2577; \nmargin-bottom: 0;\n    margin-top: 0;\n}\n.insta__top .button--link {\n    color: #3c2376;\n}\n@media screen and (max-width: 749px) {\n.insta__title svg {\nwidth: 21px;\nheight: 21px;\nmargin-right: 8px;\n}\n}\n<\/style>\n\n<style>\n#insta-feed img, .instafeed-shopify img {\n  border-radius: 16px;\n}\n.instafeed-overlay::before, .instafeed-overlay::after {\n border-radius: 16px;\n}\n<\/style>\n<div id=\"insta-feed\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "b1d0a482-7aa1-4ee4-8580-a3741ea3eaa8"
+      ],
+      "settings": {
+        "include_margins": true,
+        "color_scheme": "background-3",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "b0b36b5a-f278-4135-a35d-911b74731a38",
+    "ec2fd024-f2b1-467e-a5f4-b154a03deffb",
+    "78b89ef9-d848-4cec-bb34-50ad174c8e20",
+    "624048f0-4a10-45cd-9a0a-0e55309997dd",
+    "2f7e8420-7278-4e29-8c2a-f5a5a5bc220d",
+    "1678334827de146ced"
+  ]
+}

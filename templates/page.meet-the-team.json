@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-meet-the-team",
+      "settings": {
+        "heading": "Meet  The Team",
+        "color_scheme": "accent-2",
+        "color_text": "#e4d0c9",
+        "image": "shopify:\/\/shop_images\/TeamPhoto.jpg"
+      }
+    },
+    "16805158061863b448": {
+      "type": "apps",
+      "blocks": {
+        "c7b03eb8-6105-49f7-9d59-3163aab01536": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": "<div class=\"insta__top\">\n<div class=\"insta__title\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 448 512\"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https:\/\/fontawesome.com License - https:\/\/fontawesome.com\/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\"><\/path><\/svg>\n<h3 class=\"h1\">compbasketcase<\/h3>\n<\/div>\n<a class=\"button--link\" href=\"https:\/\/www.instagram.com\/compbasketcase\/\">Follow Us<\/a>\n\n<\/div>\n\n\n<style>\n.insta__top {\njustify-content: space-between;\n}\n.insta__title, .insta__top {\n    display: flex;\n    align-items: center;\n}\n.insta__title svg {\n    width: 32px;\n    height: 44px;\n    margin-right: 16px;\n    fill: #3d2577; \n}\n.insta__title  h3 {\n    color: #3d2577; \nmargin-bottom: 0;\n    margin-top: 0;\n}\n.insta__top .button--link {\n    color: #3c2376;\n}\n@media screen and (max-width: 749px) {\n.insta__title svg {\nwidth: 21px;\nheight: 21px;\nmargin-right: 8px;\n}\n}\n<\/style>\n\n<style>\n#insta-feed img, .instafeed-shopify img {\n  border-radius: 16px;\n}\n.instafeed-overlay::before, .instafeed-overlay::after {\n border-radius: 16px;\n}\n<\/style>\n<div id=\"insta-feed\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "c7b03eb8-6105-49f7-9d59-3163aab01536"
+      ],
+      "settings": {
+        "include_margins": true,
+        "color_scheme": "background-3",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16805158061863b448"
+  ]
+}

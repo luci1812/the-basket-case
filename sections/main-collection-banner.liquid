@@ -1,0 +1,104 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .collection-hero--{{ section.id }} {
+    background-color: {{ collection.metafields.custom.background_color_banner.value }};
+    color: {{ collection.metafields.custom.text_color_banner.value }};
+  }
+
+  .collection-hero--{{ section.id }} h3 {
+    color: {{ collection.metafields.custom.text_color_banner.value }};
+  }
+{%- endstyle -%}
+
+<div class="collection-hero collection-hero--{{ section.id }} {% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %}">
+
+  {% if collection.metafields.custom.background_color_banner == blank %}
+    {% render 'icon-line' %}
+  {% endif %}
+  <div class="collection-hero__inner page-width">
+    <div class="collection-hero__text-wrapper">
+      {% if section.settings.show_icon and collection.metafields.custom.icon_banner %}
+        <img
+          srcset="
+            {%- if collection.metafields.custom.icon_banner.width >= 20 -%}{{ collection.metafields.custom.icon_banner | image_url: width: 20 }} 20w,{%- endif -%}
+            {%- if collection.metafields.custom.icon_banner.width >= 30 -%}{{ collection.metafields.custom.icon_banner | image_url: width: 30 }} 30w,{%- endif -%}
+            {%- if collection.metafields.custom.icon_banner.width >= 40 -%}{{ collection.metafields.custom.icon_banner | image_url: width: 40 }} 40w,{%- endif -%}
+            {%- if collection.metafields.custom.icon_banner.width >= 50 -%}{{ collection.metafields.custom.icon_banner | image_url: width: 50 }} 50w,{%- endif -%}
+            {%- if collection.metafields.custom.icon_banner.width >= 60 -%}{{ collection.metafields.custom.icon_banner | image_url: width: 60 }} 60w,{%- endif -%}
+            {%- if collection.metafields.custom.icon_banner.width >= 70 -%}{{ collection.metafields.custom.icon_banner | image_url: width: 70 }} 70w,{%- endif -%}
+            {{ collection.metafields.custom.icon_banner | image_url }} {{ collection.metafields.custom.icon_banner.width }}w
+          "
+          src="{{ collection.metafields.custom.icon_banner | image_url: height: 48 }}"
+          sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc(50vw - 130px), calc(50vw - 55px)"
+          alt=""
+          width="{{ collection.metafields.custom.icon_banner.width }}"
+          height="{{ collection.metafields.custom.icon_banner.height }}"
+        >
+      {% endif %}
+      <h3 class="collection-hero__title">
+        <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
+        {{- collection.title | escape -}}
+      </h3>
+
+      {%- if collection.metafields.custom.description_short != blank -%}
+        <div class="collection-hero__description rte">{{ collection.metafields.custom.description_short }}</div>
+      {%- endif -%}
+    </div>
+
+    {%- if section.settings.show_collection_image and collection.image -%}
+      <div class="collection-hero__image-container media gradient">
+        <img
+          srcset="
+            {%- if collection.image.width >= 165 -%}{{ collection.image | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if collection.image.width >= 360 -%}{{ collection.image | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if collection.image.width >= 535 -%}{{ collection.image | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if collection.image.width >= 750 -%}{{ collection.image | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if collection.image.width >= 960 -%}{{ collection.image | image_url: width: 960 }} 960w,{%- endif -%}
+            {%- if collection.image.width >= 1070 -%}{{ collection.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if collection.image.width >= 1500 -%}{{ collection.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ collection.image | image_url }} {{ collection.image.width }}w
+          "
+          src="{{ collection.image | image_url: width: 750 }}"
+          sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc(50vw - 130px), calc(50vw - 55px)"
+          alt=""
+          width="{{ collection.image.width }}"
+          height="{{ collection.image.height }}"
+        >
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main-collection-banner.name",
+  "class": "section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.main-collection-banner.settings.paragraph.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "default": true,
+      "label": "Show icon"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_description",
+      "default": true,
+      "label": "t:sections.main-collection-banner.settings.show_collection_description.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_image",
+      "default": false,
+      "label": "t:sections.main-collection-banner.settings.show_collection_image.label",
+      "info": "t:sections.main-collection-banner.settings.show_collection_image.info"
+    }
+  ]
+}
+{% endschema %}

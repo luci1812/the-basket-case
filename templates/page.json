@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle-1_2x_c88818fa-6b76-4386-9567-a3ccc9cd645c.png",
+        "padding_top": 48,
+        "padding_bottom": 96
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

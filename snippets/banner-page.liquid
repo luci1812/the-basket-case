@@ -1,0 +1,61 @@
+{% comment %}
+  Usage:
+  {% render 'banner-page', heading: page.title ,
+    image: section.settings.image, 
+    image_metafield: page.metafields.custom.image_banner,
+    image_mb: section.settings.image_mb, 
+    image_metafield_mb: page.metafields.custom.image_banner_mobile,
+    bg_color: section.settings.bg_color,
+    color: section.settings.color
+  %}
+{% endcomment %}
+
+{{ 'component-banner-page.css' | asset_url | stylesheet_tag  }}
+
+<div class="banner-page">
+  <div class="banner-page__content" style="background-color: {{ bg_color }}">
+    <h1 class="h0" style="color: {{ color }}">{{ heading }}</h1>      
+  </div>
+  <div class="banner-page__img">
+    <div class="{% if image_mb != blank or image_metafield_mb != blank %}small-hide{%- endif -%}">
+      {%- if image_metafield != blank -%}
+        {{ image_metafield | image_url: width: auto | image_tag:
+          loading: 'lazy',
+          height: auto,
+          sizes: "66.67%",
+          widths: '375, 550, 750, 960, 1100, 1500, 1780, 2000, 3000, 3840'
+        }}
+      {% elsif image_metafield == blank and image != blank %}
+        {{ image | image_url: width: auto | image_tag:
+          loading: 'lazy',
+          height: auto,
+          sizes: "66.67%",
+          widths: '375, 550, 750, 960, 1100, 1500, 1780, 2000, 3000, 3840'
+        }}
+      {%- else -%}
+        {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </div>
+    {% if image_mb != blank or image_metafield_mb != blank %}
+      <div class="medium-hide large-up-hide">
+        {%- if image_metafield_mb != blank -%}
+          {{ image_metafield_mb | image_url: width: auto | image_tag:
+            loading: 'lazy',
+            height: auto,
+            sizes: "100%",
+            widths: '375, 550, 750'
+          }}
+        {% elsif image_metafield_mb == blank and image_mb != blank %}
+          {{ image_mb | image_url: width: auto | image_tag:
+            loading: 'lazy',
+            height: auto,
+            sizes: "100%",
+            widths: '375, 550, 750'
+          }}
+        {%- else -%}
+          {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </div>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,42 @@
+{% render 'banner-page', heading: page.title ,
+  image: section.settings.image, 
+  image_metafield: page.metafields.custom.image_banner,
+  image_mb: section.settings.image_mb, 
+  image_metafield_mb: page.metafields.custom.image_banner_mobile,
+  bg_color: section.settings.bg_color,
+  color: section.settings.color
+%}
+
+{% schema %}
+  {
+    "name": "FAQ",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Banner"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color",
+        "default": "#3D2577"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Text color",
+        "default": "#E4D0C9"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mb",
+        "label": "Image mobile"
+      }
+    ]
+  }
+{% endschema %}

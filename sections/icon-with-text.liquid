@@ -1,0 +1,203 @@
+{{ 'component-icon-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }} {
+    margin-top: {{ section.settings.margin_top | times: 0.66 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.66 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }} {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section-{{ section.id }} gradient color-{{ section.settings.color_scheme }}">
+  <div class="icon-with-text page-width">
+    {% for block in section.blocks %}
+      <div class="icon-with-text__item icon-with-text__item--{{ block.settings.image_size }} {% if block.settings.row %}icon-with-text__item--row{% endif %}">
+        <div class="icon__img">
+          {%- if block.settings.icon_svg != blank-%}
+            <div class="icon__svg">{{ block.settings.icon_svg }}</div>
+          {%- elsif block.settings.image != blank -%}
+            <img
+              src="{{ block.settings.image | image_url }}"
+              {% if block.settings.image.alt != blank %}
+                alt="{{ block.settings.image.alt | escape }}"
+              {% else %}
+                role="presentation"
+              {% endif %}
+              height="auto"
+              width="auto"
+              loading="lazy"
+            >
+          {%- endif -%}
+        </div>
+        <div class="text__wrap">
+          {% if block.settings.title != blank %}
+            <h5 class="{{ block.settings.title_size }}">{{ block.settings.title }}</h5>          
+          {% endif %}
+          {% if block.settings.content != blank %}
+            {{ block.settings.content }}
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Icon with text",
+    "settings": [
+      {
+        "type": "select",
+        "id": "color_scheme",
+        "options": [
+          {
+            "value": "accent-1",
+            "label": "t:sections.all.colors.accent_1.label"
+          },
+          {
+            "value": "accent-2",
+            "label": "t:sections.all.colors.accent_2.label"
+          },
+          {
+            "value": "background-1",
+            "label": "t:sections.all.colors.background_1.label"
+          },
+          {
+            "value": "background-2",
+            "label": "t:sections.all.colors.background_2.label"
+          },
+          {
+            "value": "background-3",
+            "label": "Background 3"
+          },
+          {
+            "value": "inverse",
+            "label": "t:sections.all.colors.inverse.label"
+          }
+        ],
+        "default": "background-1",
+        "label": "t:sections.all.colors.label"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.margin.section_margin_heading"
+      },
+      {
+        "type": "range",
+        "id": "margin_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.margin.margin_top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.margin.margin_bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "Icon with text",
+        "limit": 4,
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "row",
+            "label": "Horizontal",
+            "default": false,
+            "info": "Only use when there is one block"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "icon_svg",
+            "label": "Icon svg"
+          },
+          {
+            "type": "select",
+            "id": "image_size",
+            "options": [
+              {
+                "value": "small",
+                "label": "Image small"
+              },
+              {
+                "value": "large",
+                "label": "Image large"
+              }
+            ],
+            "default": "small",
+            "label": "Image size"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Free shipping available Australia wide"
+          },
+          {
+            "type": "select",
+            "id": "title_size",
+            "options": [
+              {
+                "value": "h4",
+                "label": "Small"
+              },
+              {
+                "value": "h3",
+                "label": "Medium"
+              },
+              {
+                "value": "h2",
+                "label": "Large"
+              }
+            ],
+            "default": "h4",
+            "label": "Title size"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content",
+            "default": "<p>If in a hurry, send it with our VIP service for $9.95</p>"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Icon with text",
+        "blocks": [
+          {
+            "type": "block"
+          },
+          {
+            "type": "block"
+          },
+          {
+            "type": "block"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
